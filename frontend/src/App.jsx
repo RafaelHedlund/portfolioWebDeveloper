@@ -2,7 +2,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
-import Contato from './components/Contato'  // Corrigi a importação, maiúsculo no nome do arquivo
+import Contato from './components/contato'  // Corrigi a importação, maiúsculo no nome do arquivo
 import Footer from './components/Footer'
 
 export default function App() {
