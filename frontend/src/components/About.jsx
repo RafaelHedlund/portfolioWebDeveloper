@@ -29,7 +29,7 @@ export default function About() {
     {
       icon: <FaCertificate className="text-3xl text-purple-400 mb-4 mt-2" />,
       title: 'EXPERIÊNCIA PROFISSIONAL',
-      value: '9 Meses',
+      value: '1 Ano',
       desc: 'Desenvolvimento e manutenção de sites com JavaScript, PHP, WordPress e foco em performance visual.',
     },
     {
