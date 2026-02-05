@@ -25,7 +25,7 @@ import crypto from '../assets/crypto.png'
 import MDashborad from '../assets/MDashboard.png'
 // Importe vídeo 
 import cryptoVideo from '../assets/crypto-dashboard-video.mp4'
-import Msaas from '../assets/msaas.mp4'
+import msaas from '../assets/msaas.mp4'
 
 const tabs = [
   { name: 'Projetos', icon: <FaCode /> },
@@ -91,7 +91,7 @@ export default function Portfolio() {
       image: MDashborad,
       liveLink: 'https://micro-saas-ai.vercel.app/',
       github: 'https://github.com/RafaelHedlund/Micro-Saas', 
-      video: Msaas,
+      video: msaas,
       fullDescription: `
         Sobre o Projeto
         O MicroSaaS de Produtividade com IA é uma aplicação full stack desenvolvida para centralizar e otimizar a produtividade pessoal e profissional.
