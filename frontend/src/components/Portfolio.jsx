@@ -23,9 +23,6 @@ import Cplus from '../assets/Cplus.jpg'
 import IntroduçãoPython from '../assets/IntroduçãoPython.jpg'
 import crypto from '../assets/crypto.png'
 import MDashborad from '../assets/MDashboard.png'
-// Importe vídeo 
-import cryptoVideo from '../assets/crypto-dashboard-video.mp4'
-import msaas from '../assets/msaas.mp4'
 
 const tabs = [
   { name: 'Projetos', icon: <FaCode /> },
@@ -67,7 +64,7 @@ export default function Portfolio() {
       image: crypto, 
       liveLink: 'https://dashboard-crypto-jet.vercel.app/',
       github: 'https://github.com/RafaelHedlund/Dashboard-Crypto?utm_source',
-      video: cryptoVideo,
+      video: '/crypto-dashboard-video.mp4', // Caminho absoluto para public
       fullDescription: `
         O Crypto Dashboard é uma aplicação full stack que permite aos usuários monitorar criptomoedas em tempo real. 
         Desenvolvido com React no frontend e Node.js no backend, o projeto oferece uma interface intuitiva e responsiva 
@@ -91,7 +88,7 @@ export default function Portfolio() {
       image: MDashborad,
       liveLink: 'https://micro-saas-ai.vercel.app/',
       github: 'https://github.com/RafaelHedlund/Micro-Saas', 
-      video: msaas,
+      video: '/msaas.mp4', // Caminho absoluto para public
       fullDescription: `
         Sobre o Projeto
         O MicroSaaS de Produtividade com IA é uma aplicação full stack desenvolvida para centralizar e otimizar a produtividade pessoal e profissional.
