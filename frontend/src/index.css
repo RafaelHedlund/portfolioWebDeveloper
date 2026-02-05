@@ -1,0 +1,24 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blinkCaret {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #8b5cf6; } /* roxo */
+}
+
+.animate-blink-caret {
+  animation: blinkCaret 1s step-end infinite;
+}
+
+/* BACKGROUND GLOBAL */
+body {
+  @apply bg-gradient-to-tr from-[#0a0a0a] via-[#100a20] to-[#0a111a] min-h-screen;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
